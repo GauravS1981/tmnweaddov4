@@ -1,0 +1,114 @@
+.footer {
+    font-family: "Poppins";
+    text-align: center;
+    background-color: rgb(10, 44, 50); 
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.footer-top, .footer-mid, .footer-bottom {
+    margin: 3% 0;
+}
+
+.footer-top h1{
+    font-weight: 500;
+}
+
+.footer-mid {
+    display: flex;
+    text-align: left;
+    font-size: 1vw;
+    height: 6vh;
+    line-height: 6vh;
+    justify-content: center; 
+}
+
+.footer-mid h3 {
+    font-weight: 300;
+}
+
+.footer-mid-first {
+    width: 7%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 0.5px solid white;
+}
+
+.footer-mid-fourth {
+    width: 9%;
+    text-align: right;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 0.5px solid white;
+}
+
+.footer-mid-second, .footer-mid-third {
+    border: 1px solid white;
+    border-left: 0.5px solid white;
+    border-right: 0.5px solid white;
+}
+
+.footer-mid-second {
+    width: 20%;
+    text-align: center;
+}
+
+.footer-mid-third {
+    width: 40%;
+    text-align: left;
+}
+
+.footer-mid-third h3{
+    margin-left: 7%;
+}
+
+.footer-bottom {
+    margin-bottom: 0;
+}
+
+.footer-bottom p{
+    font-weight: 100;
+}
+
+.footer-space {
+    height: 1px;
+}
+
+@media (max-width: 500px) {
+    .footer {
+        height: 600px;
+        margin-bottom: 0; 
+    }
+
+    .footer-top h1{
+        font-size: 60px;
+    }
+
+    .footer-mid {
+        font-size: 35px;
+        height: 90px;
+        line-height: 90px;
+        margin-top: 90px;
+    }
+
+    .footer-mid-first {
+        width: 12%;
+    }
+    
+    .footer-mid-fourth {
+        width: 16%;
+    }
+    
+    .footer-mid-second {
+        width: 30%;
+    }
+    
+    .footer-mid-third {
+        width: 30%;
+    }
+
+    .footer-bottom {
+        margin-top: 120px;
+        font-size: 35px;
+    }
+}

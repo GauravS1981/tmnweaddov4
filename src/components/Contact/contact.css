@@ -1,0 +1,11 @@
+.contact {
+    position: fixed;
+    left: 20px;
+    top: 70%;
+    color: black;
+    margin-left: 1%;
+}
+
+.contact div {
+    margin-top: 20px;
+}

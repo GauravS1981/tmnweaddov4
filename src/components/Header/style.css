@@ -1,0 +1,35 @@
+.header-container-tag {
+    position: relative;
+}
+
+.header-container-tag .header-menu {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 600;
+}
+
+.header-container-tag .header-menu li {
+    margin: 10px 0;
+}
+
+.header-container-tag > h1 {
+    font-size: 8vw;
+    text-align: center;
+    font-family: "Shoreline";
+}
+
+.header-container-tag-first {
+    margin-top: 150px;
+}
+
+.lineParent {
+    overflow: hidden;
+}
+.lineParent .lineChildren {
+    height: 40vh;
+    line-height: 40vh;
+    transform: translate(0, 500px);
+}

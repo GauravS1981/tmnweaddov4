@@ -1,0 +1,21 @@
+@import '../sass/base';
+@import '../sass/collection';
+@import '../sass/variables';
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600,800&display=swap");
+
+body {
+    // cursor: none;
+    background-color: black;
+    color: white;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    // cursor: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

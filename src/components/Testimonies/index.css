@@ -1,0 +1,26 @@
+.test {
+  height: 50vh;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.awssld__controls button {
+  z-index: 2;
+}
+
+/* @media (max-width: 500px) {
+  .test {
+    margin-top: 5%;
+    height: 50%;
+  }
+
+  .test h1 {
+    font-size: 70px;
+    font-family: "Poppins";
+  }
+
+  .test p {
+    font-size: 48px;
+    font-family: "Poppins";
+  }
+} */

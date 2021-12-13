@@ -1,0 +1,36 @@
+.portfolio-container-tag {
+    position: relative;
+}
+
+.portfolio-container-tag .header-menu {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 600;
+}
+
+.portfolio-container-tag .header-menu li {
+    margin: 10px 0;
+}
+
+.portfolio-container-tag > h1 {
+    font-size: 8vw;
+    text-align: center;
+    font-family: "Poppins";
+    text-transform: uppercase;
+}
+
+.portfolio-container-tag-first {
+    margin-top: 150px;
+}
+
+.lineParent {
+    overflow: hidden;
+}
+.lineParent .lineChildren {
+    height: 40vh;
+    line-height: 40vh;
+    transform: translate(0, 500px);
+}

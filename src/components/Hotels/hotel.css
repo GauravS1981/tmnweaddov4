@@ -1,0 +1,184 @@
+.hotel-container-tag {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hotel-container-tag .header-menu {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 600;
+}
+
+.hotel-container-tag .header-menu li {
+    margin: 10px 0;
+}
+
+.hotel-container-tag > h1 {
+    font-size: 8vw;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.hotel-container-tag-first {
+    margin-top: 150px;
+}
+
+.lineParent {
+    overflow: hidden;
+}
+.lineParent .lineChildren {
+    height: 40vh;
+    line-height: 40vh;
+    transform: translate(0, 500px);
+}
+
+.hotel-about-section {
+    text-align: center;
+    margin: 0 20%;
+}
+
+.hotel-about-section > p {
+    font-family: "Poppins";
+    line-height: 1.12;
+    opacity: 0;
+    margin-top: 6%;
+    font-size: 2vw;
+}
+
+.hotel-about-section p > div {
+    opacity: 0;
+    transform: translateY(0px);
+    text-align: center;
+}
+
+.hotel-about-section p.is-reveal {
+    opacity: 1;
+}
+
+.hotel-about-section > h6 {
+    font-size: 2vw;
+    margin-bottom: 10vh;
+}
+
+/* @media (max-width: 500px) {
+    .hotel-about-section {
+        margin: 0 10%;
+    }
+    
+    .hotel-about-section > p {
+        margin-top: 6%;
+        font-size: 45px;
+        text-align: center;
+    }
+} */
+
+.grids {
+    max-width: 70%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+  
+.card {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.card h3 {
+    font-family: "Poppins";
+    font-size: 2.5vw;
+}
+
+.card p {
+    font-family: "Poppins";
+}
+
+.card div {
+    margin: auto;
+}
+
+.card img {
+    height: 400px;
+}
+  
+.card:nth-child(even) img {
+    order: 2;
+}
+
+.btn {
+    display: inline-block;
+    background: rgb(10, 44, 50);
+    color: #fff;
+    padding: 0.8rem 1.8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    font-family: "Poppins";
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+  
+
+a {
+    text-decoration: none;
+}
+  
+@media(max-width:900px) {
+    .card {
+        display: block;
+        margin-top: 200px;
+    }
+
+    .hotel-about-section > p {
+        font-size: 20px;
+    }
+
+    .card div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* .card div a {
+        height: 80px;
+        line-height: 80px;
+        margin: 0 250px;
+        margin-top: 50px;
+        font-size: 50px;
+    }
+
+    .card img {
+        height: 600px;
+    }
+
+    .grids {
+        max-width: 80%;
+    }
+
+    .card div h3 {
+        font-family: "Poppins";
+        font-size: 90px;
+        font-weight: 600;
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .card div p {
+        font-family: "Poppins";
+        font-size: 52px;
+        font-weight: 200;
+        text-align: center;
+    } */
+}

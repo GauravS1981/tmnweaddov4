@@ -1,0 +1,46 @@
+.video-row {
+    display: flex;
+    margin: 100px 10%;
+}
+
+.video-first {
+    height: 40vh;
+    display: table-cell;
+    width: 50%;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.video-mid {
+    display: table-cell;
+    height: 300px;
+    width: 10%;
+}
+
+.video-second {
+    height: 40vh;
+    display: table-cell;
+    width: 50%;
+    background-color: white;
+    border-radius: 40px;
+}
+
+@media (max-width: 500px) {
+    .video-row {
+        display: block;
+    }
+
+    .video-first, .video-second {
+        display: block;
+        margin: auto;
+        width: 70%; 
+    }
+
+    .video-mid {
+        height: 10vh;
+    }
+
+    /* .video-mid {
+        height: 60px;
+    } */
+}

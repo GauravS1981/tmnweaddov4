@@ -1,0 +1,60 @@
+.work_with_us_block {
+    display: flex;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.work_with_us_block h3 {
+    font-size: 40px;
+}
+
+.work_with_us_block p {
+    font-size: 18px;
+}
+
+.work_with_us_block_data {
+    padding: 12% 9%;
+    padding-bottom: 0;
+}
+
+.work_with_us_block_data_last {
+    padding: 12% 9%;
+}
+
+@media (max-width: 900px) {
+    .work_with_us_block {
+        display: block;
+    }
+
+    .work_with_us_block_data {
+        padding: 25% 9%;
+        padding-bottom: 0;
+    }
+    
+    .work_with_us_block_data_last {
+        padding: 25% 9%;
+    }
+}
+
+/* @media (max-width: 500px) {
+    .work_with_us_block {
+        display: block;
+    }
+
+    .work_with_us_block h3 {
+        font-size: 70px;
+    }
+    
+    .work_with_us_block p {
+        font-size: 48px;
+    }
+    
+    .work_with_us_block_data {
+        padding: 15% 7%;
+        padding-bottom: 0;
+    }
+    
+    .work_with_us_block_data_last {
+        padding: 15% 7%;
+    }
+} */

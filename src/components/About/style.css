@@ -1,0 +1,39 @@
+.home-about-section {
+    text-align: center;
+    margin: 0 20%;
+}
+
+.home-about-section > p {
+    font-family: "Poppins";
+    line-height: 1.12;
+    opacity: 0;
+    margin-top: 6%;
+    font-size: 3vw;
+}
+
+.home-about-section p > div {
+    opacity: 0;
+    transform: translateY(0px);
+    text-align: center;
+}
+
+.home-about-section p.is-reveal {
+    opacity: 1;
+}
+
+.home-about-section > h6 {
+    font-size: 2vw;
+    margin-bottom: 10vh;
+}
+
+@media (max-width: 500px) {
+    .home-about-section {
+        margin: 0 10%;
+    }
+    
+    /* .home-about-section > p {
+        margin-top: 6%;
+        font-size: 45px;
+        text-align: center;
+    } */
+}

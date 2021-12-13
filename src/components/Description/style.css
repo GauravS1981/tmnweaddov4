@@ -1,0 +1,101 @@
+.description-grids {
+    max-width: 70%;
+    margin: auto;
+}
+  
+.card {
+    margin-top: 20%;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.text {
+    text-align: center;
+}
+
+.card h3 {
+    font-family: "Poppins";
+    font-size: 40px;
+}
+
+.card p {
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+.card div {
+    margin: auto;
+}
+  
+.card:nth-child(even) img {
+    order: 2;
+}
+ 
+.last {
+    margin-bottom: 150px;
+}
+  
+/* @media (max-width: 500px) {
+    .card {
+        display: block;
+        margin-top: 100px;
+    }
+
+    .description-grids {
+        max-width: 90%;
+    }
+
+    .card h3 {
+        font-family: "Poppins";
+        font-size: 40px;
+    }
+    
+    .card p {
+        font-family: "Poppins";
+        font-size: 18px;
+    }
+} */
+
+/* .ourvalue{
+    position:absolute; left: 0; transform-origin: 0 0;     font-size: 80px;
+    text-transform: uppercase; transform: rotate(-90deg); margin-top: 42%;}
+.portfolio{
+        position:absolute; left: 0; transform-origin: 0 0;     font-size: 70px;
+        text-transform: uppercase; transform: rotate(-90deg); margin-top: 32%;} */
+          .ourvalue-mob{display: none;}
+        .ourvalue{position: absolute;font-family: sans-serif;
+            transform-origin: 0 0;
+            font-size: 80px;
+            -webkit-text-fill-color: black;
+            -webkit-text-stroke-width: 3px;
+            text-transform: uppercase;
+            transform: rotate(
+        90deg);
+            margin-top: 0%;
+            right: -37%;
+            margin-right: 0;
+            float: right;}
+        .portfolio{position: absolute;font-family: sans-serif;
+            transform-origin: 0 0;
+            -webkit-text-fill-color: black;
+            -webkit-text-stroke-width: 3px;
+            font-size: 70px;
+            text-transform: uppercase;
+            transform: rotate(
+        90deg);
+            margin-top: 2%;
+            right: -29%;}   
+            .overflow{width: 90%;
+                min-height: 500px;
+                max-height: 500px;
+                overflow-y: scroll;
+                padding: 0px 15px 0px 5%;}  
+                .overflow p{margin-bottom: 30px;} 
+
+
+                @media screen and (max-width: 600px) {
+                    video{width: 100%;}
+                    
+                  }
+
+                  

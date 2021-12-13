@@ -1,0 +1,30 @@
+.info {
+    text-align: center;
+    margin: 70px auto;
+    color: white;
+    width: 80%;
+}
+
+.info h3 {
+    font-family: "Poppins";
+    font-size: 40px;
+}
+
+.info p {
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+/* @media (max-width: 500px) {
+    .info h3 {
+        font-family: "Poppins";
+        font-size: 80px;
+        font-weight: 500;
+    }
+    
+    .info p {
+        font-family: "Poppins";
+        font-size: 48px;
+        font-weight: 300;
+    }
+} */

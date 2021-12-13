@@ -1,0 +1,54 @@
+.links-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    font-family: "Poppins";
+    font-size: 2vw;
+}
+
+.col {
+    display: table-cell;
+}
+
+.links-row a {
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+.links-row a:hover {
+   cursor: pointer;
+}
+
+.links-row a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 0.1vw;
+    bottom: 0;
+    left: 0;
+    background: currentcolor;
+    transform-origin: bottom right;
+    transition: transform 0.55s ease-out;
+}
+  
+.links-row a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+@media (max-width: 500px) {
+    .links-row {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .col {
+        display: block;
+        padding: 10px 0;
+    }
+}

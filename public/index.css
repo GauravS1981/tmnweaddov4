@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Shoreline';
+    src: local('Shoreline'), url(fonts/Shoreline.otf) format('opentype');
+}
+
+body {
+    overflow-x: hidden;
+}
+.mauto{
+    margin: 0 auto;
+text-align: center;
+}
+.exloreauto{
+    text-align: right;
+    width: 78%;
+}
+
+.contact{z-index: 3;}
+.container.page.four-page {
+    padding-top: 50px;
+}
